@@ -1,0 +1,43 @@
+laptop-finder-nodejs/
+├── src/
+│   ├── config/
+│   │   ├── database.ts
+│   │   └── env.ts
+│   ├── controllers/
+│   │   ├── authController.ts
+│   │   ├── quizController.ts
+│   │   ├── recommendationController.ts
+│   │   └── userController.ts
+│   ├── middlewares/
+│   │   ├── authMiddleware.ts
+│   │   └── errorMiddleware.ts
+│   ├── models/
+│   │   ├── User.ts
+│   │   ├── QuizQuestion.ts
+│   │   ├── UserResponse.ts
+│   │   └── Laptop.ts
+│   ├── routes/
+│   │   ├── authRoutes.ts
+│   │   ├── quizRoutes.ts
+│   │   ├── recommendationRoutes.ts
+│   │   └── userRoutes.ts
+│   ├── services/
+│   │   ├── authService.ts
+│   │   ├── quizService.ts
+│   │   ├── recommendationService.ts
+│   │   └── userService.ts
+│   ├── utils/
+│   │   ├── jwtUtil.ts
+│   │   └── hashUtil.ts
+│   ├── index.ts
+├── node_modules/
+├── tests/
+│   ├── auth.test.ts
+│   ├── quiz.test.ts
+│   ├── recommendation.test.ts
+│   └── user.test.ts
+├── .env
+├── .gitignore
+├── package.json
+├── tsconfig.json
+└── README.md
